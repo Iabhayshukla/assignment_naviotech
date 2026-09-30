@@ -1,0 +1,51 @@
+.dashboard-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.user-info {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.user-info p {
+  margin: 0.75rem 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.user-info strong {
+  color: #333;
+}
+
+.logout-button {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(135deg, #000000 0%, #333333 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.logout-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
